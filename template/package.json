@@ -5,13 +5,16 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-cservice lint"
   },
   "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
     "core-js": "^3.4.4",
     "fibers": "^4.0.2",
     "jquery": "^3.4.1",
     "node-sass": "^4.13.1",
+    "popper.js": "^1.16.1",
     "sass": "^1.25.0",
     "sass-loader": "^8.0.2",
     "vue": "^2.6.10",

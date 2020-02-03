@@ -1,6 +1,5 @@
 <template>
-    <div id="app">
-        <h1>hello</h1>
+    <div>
         <h2>this template has</h2>
         <ul>
             <li v-for="(pack, index) in packages" :key="index">
@@ -9,7 +8,6 @@
         </ul>
     </div>
 </template>
-
 <script>
 export default {
     name: "app",
@@ -17,6 +15,7 @@ export default {
         return {
             packages: [
                 "vuex",
+                "axios",
                 "vue-router",
                 "vue-devtools",
                 "sass",
