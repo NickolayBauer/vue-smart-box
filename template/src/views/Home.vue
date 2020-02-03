@@ -2,7 +2,7 @@
     <div>
         <h2>this template has</h2>
         <ul>
-            <li v-for="(pack, index) in packages" :key="index">
+            <li v-for="(pack, index) in packages" :key="index" v-text="pack">
                 {{pack}}
             </li>
         </ul>
