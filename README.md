@@ -10,3 +10,7 @@
 + vuelidate
 + bootstrap
 + jquery
+
+## init template
+
+### vue init NickolayBauer/vue-smart-box you-project-name
